@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-negativardevedores",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Community node n8n para a API de Negativação da RedeCredAuto (negativardevedores.com.br). Requer contrato ativo com a RedeCredAuto.",
   "keywords": [
     "n8n-community-node-package",

@@ -78,25 +78,25 @@ export class RedeCredAuto implements INodeType {
 					{
 						name: 'Inclusão',
 						value: 'inclusao',
-						action: 'Incluir negativa o de d vida',
+						action: 'Incluir negativação de dívida',
 						description: 'Envia uma solicitação de inclusão de dívida (POST /inclusao)',
 					},
 					{
 						name: 'Consulta',
 						value: 'consulta',
-						action: 'Consultar negativa o por protocolo',
+						action: 'Consultar negativação por protocolo',
 						description: 'Consulta os detalhes de uma operação pelo protocolo (GET /consulta)',
 					},
 					{
 						name: 'Listagem',
 						value: 'listagem',
-						action: 'Listar negativa es',
+						action: 'Listar negativações',
 						description: 'Lista operações filtradas por documento, contrato, operação ou datas (GET /listagem)',
 					},
 					{
 						name: 'Exclusão',
 						value: 'exclusao',
-						action: 'Excluir negativa o',
+						action: 'Excluir negativação',
 						description: 'Registra a exclusão de uma inclusão já processada (DELETE /exclusao)',
 					},
 				],
@@ -120,7 +120,7 @@ export class RedeCredAuto implements INodeType {
 					{
 						name: 'Testar Token',
 						value: 'teste',
-						action: 'Testar o token de autentica o',
+						action: 'Testar o token de autenticação',
 						description: 'Valida o token Bearer e retorna o código do cliente (GET /auth-test)',
 					},
 				],

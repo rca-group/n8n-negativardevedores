@@ -8,15 +8,16 @@ import {
 
 export class RedeCredAutoTrigger implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'RedeCredAuto Trigger',
+		displayName: 'Negativação Trigger',
 		name: 'redeCredAutoTrigger',
 		icon: 'file:redecredauto.svg',
 		group: ['trigger'],
 		version: 1,
 		subtitle: '=Webhook: {{$parameter["eventos"].join(", ") || "todos"}}',
 		description: 'Recebe notificações de webhook da API de Negativação da RedeCredAuto',
+		eventTriggerDescription: 'On New Negativação Event',
 		defaults: {
-			name: 'RedeCredAuto Trigger',
+			name: 'On New Negativação Event',
 		},
 		inputs: [],
 		outputs: ['main'],
