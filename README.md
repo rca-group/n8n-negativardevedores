@@ -1,5 +1,9 @@
 # n8n-nodes-negativardevedores
 
+[![npm version](https://img.shields.io/npm/v/n8n-nodes-negativardevedores.svg)](https://www.npmjs.com/package/n8n-nodes-negativardevedores)
+[![npm downloads](https://img.shields.io/npm/dm/n8n-nodes-negativardevedores.svg)](https://www.npmjs.com/package/n8n-nodes-negativardevedores)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE.md)
+
 Este é um community node para o [n8n](https://n8n.io). Ele permite integrar seus workflows n8n com a **API de Negativação da RedeCredAuto** ([negativardevedores.com.br](https://api.negativardevedores.com.br)), automatizando a inclusão, consulta, listagem e exclusão de dívidas negativadas.
 
 > ⚠️ **É necessário ter um contrato ativo com a RedeCredAuto para utilizar este node.** O token de autenticação Bearer (produção e homologação) é fornecido pela RedeCredAuto após a contratação. Sem contrato, os endpoints não retornam dados.
